@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background-image: url(musica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.login{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.login a {
+text-transform: uppercase; 
+text-decoration: none; 
+font-size: 15px; 
+font-family:  Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 900;
+color: #fcf9f9;
+background-color: rgb(240, 140, 190);
+padding: 10px 30px;
+border-radius: 15px;
+background-size: contain;
+}
+.redes{
+    margin-top: 40px;
+    margin-left: 200px;
+
+    }
+    
+    .redes a {
+    color: #f3cdf8;
+    justify-content: end;
+    }
+        
+    .redes img{
+        width:40px;
+        color: #f3cdf8;
+        background-size: contain;
+    }
+h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    color: beige;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.informações_de_eventos p{
+    font-size: 20px;
+    color: rgb(58, 9, 50);
+    text-transform: uppercase;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-align: center;
+   border-style: none;
+   background-color: #f7e4f8;
+
+}
+
+#inputNome{
+    width: 550px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+#inputEmail{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+
+}
+.botaoLogin{
+    width: 200px;
+    color: beige;
+    background-color: #8c7b7c; 
+    border-radius: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-style: none; 
+    height: 40px;  
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.entrarEmail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.login2{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2px;
+    margin-right: 2px;
+}
